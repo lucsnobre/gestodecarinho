@@ -35,7 +35,7 @@ header{
   background-color: rgb(255, 255, 255);
   position: fixed;
   width: 100%;
-  height: 150px;
+  height: 16vh;
   padding-top: 1vw;
   text-decoration-color: white;
 }
@@ -53,11 +53,13 @@ main {
   justify-content: space-between;
   padding-inline: 2vw;
   padding-left: 0.5vw;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(195, 195, 195);
+  border-radius: 2%;
 }
 
 .contatos div{
-  border-inline: 1px solid black;
+  border-radius: 2%;
+  border-inline: 1px solid rgb(189, 189, 189);
   padding-inline: 1.8vw;
   display: flex;
   justify-content: center;
@@ -87,6 +89,39 @@ main {
   align-items: center;
   padding-inline: 1vw;
 }
+
+.logo{
+  width: 15vh;
+  height: 8.5vh;
+  padding-bottom: 2vh;
+  background-image: url(./img/logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.quadradao{
+  padding-top: 16vh;
+  display: flex;
+}
+
+.text-content{
+  background-color: azure;
+}
+
+.img{
+  background-image: url(https://www.homecareassistanceamarillo.com/wp-content/uploads/2020/01/Happy-Seniors-at-Home.jpeg.jpg);
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 43%;
+}
+
+.quadradin{
+  height: 25vh;
+}
+
+
 
 .navegacao .doacao {
   background-color: black;
@@ -144,6 +179,71 @@ li a{
   padding: 0.5rem;
   position: relative;
 }
+
+#beneficios {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#beneficios .container {
+  width: 120vh;
+  padding: 20px;
+  text-align: center;
+}
+
+#beneficios h1 {
+  font-size: 2.5em;
+}
+
+#beneficios h2{
+  font-size: 15px; /* Título secundário maior */
+  margin-bottom: 14px;
+  color: #333;
+}
+#beneficios p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 2vw; /* Alinha os itens com espaço entre eles */
+}
+
+.benefit {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 15vw;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.benefit:hover {
+  transform: scale(1.05);
+}
+
+#beneficios .icon {
+  font-size: 2em;
+}
+
+#beneficios h3 {
+  font-size: 1.5em;
+  padding-top: 0.5vw;
+}
+
+#beneficios p {
+  font-size: 1em;
+  color: #555;
+  padding-top: 1vw;
+}
+
+
 
 /*.link::before{
   content: "";
