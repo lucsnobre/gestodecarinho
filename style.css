@@ -102,11 +102,45 @@ main {
 .quadradao{
   padding-top: 16vh;
   display: flex;
+  padding-inline: 10vh;
 }
 
 .text-content{
-  background-color: azure;
+  width: 120vh;
+  background-color: rgb(54, 186, 186);
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
 }
+
+.text-content h1{
+  font-size: 5vh;
+  width: 65vh;
+  background-color: yellow;
+  font-weight: 1000;
+}
+.text-content a{
+  background-color: rgb(0, 0, 0);
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+  border-radius: 1.5vh
+}
+
+.text-content .sub{
+  color: #909090;
+  font-size: 1.5vh;
+}
+
+.text-content div h2{
+  color: white;
+  font-size: 2vh;
+}
+
+
 
 .img{
   background-image: url(https://www.homecareassistanceamarillo.com/wp-content/uploads/2020/01/Happy-Seniors-at-Home.jpeg.jpg);
