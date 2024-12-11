@@ -17,6 +17,10 @@ ul, ol, li {
 
 /* reset finalizado */
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'cocogoose';
   src: url('./font/Cocogoose-Pro-Light-trial.ttf') format('truetype');
@@ -94,11 +98,11 @@ main {
   color: white;
   width: 12vw;
   height: 3vw;
-  border-radius: 7px;
+  border-radius: 0.7vh;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 70px;
+  width: 28vh;
+  height: 7vh;
 }
 
 
@@ -222,15 +226,42 @@ main {
   font-size: 1.7vh;
 }
 
+#campanha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15vh;
+}
+
+#campanha .text-content{
+  padding-left: 30vh;
+}
+
+#campanha ul{
+  padding-left: 2vh;
+}
+#campanha ul li {
+  list-style-type: disc;
+}
+
+#campanha .img{
+  background-image: url(https://helvetiarg.com.br/wp-content/uploads/2023/03/Casa-de-repouso-lar-de-idosos-e-asilo-Entenda-a-diferenca-1024x684.jpg);
+  height: 60vh;
+  width: 60vh;
+  background-position: 55%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
 .doacao {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgb(223, 240, 243), rgb(8, 177, 215));
-    border-radius: 7px; 
-    width: 260px;
-    height: 70px;
+    border-radius: 0.7vh; 
+    width: 26vh;
+    height: 7vh;
  
   }
 
@@ -253,11 +284,11 @@ li a{
 
 #campanha{
   height: 75vh;
-  background-color: rgb(255, 195, 181);
+  background-color: rgb(230, 234, 236);
 }
 
 #beneficios{
-  background-color: rgb(234, 184, 252);
+  height: fit-content;
 }
 
  .link{
@@ -278,7 +309,7 @@ li a{
 
 #beneficios .container {
   width: 120vh;
-  padding: 20px;
+  padding: 2vh;
   text-align: center;
 }
 
@@ -288,13 +319,13 @@ li a{
 }
 
 #beneficios h2{
-  font-size: 15px; /* Título secundário maior */
-  margin-bottom: 14px;
+  font-size: 1.5vh; /* Título secundário maior */
+  margin-bottom: 1.4vh;
   color: #333;
 }
 #beneficios p {
   font-size: 1.2em;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
 }
 
 .benefits {
@@ -306,9 +337,9 @@ li a{
 .benefit {
   background-color: white;
   border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  width: 15vw;
+  border-radius: 1vh;
+  padding: 1.5vh;
+  width: 50vh;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
